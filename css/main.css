@@ -14,6 +14,7 @@ html {
 }
 
 .card {
+  left: 0;
   overflow: hidden;
   border: 1px solid #ccc;
   border-radius: 0 6px 6px;
@@ -22,25 +23,27 @@ html {
 }
 
 .banner {
+  line-height: 1.4;
   display: inline;
-  margin: 0;
   background-color: rgba(0, 0, 0, .5);
   color: white;
-  text-align: center;
   font-size: 4rem;
+  font-weight: bold;
 }
 
 .card-body {
-  padding: .3rem 1rem .3rem calc(1rem - 4px);
   max-width: 50em;
-  text-align: center;
   bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2 + p {
   font-style: italic;
   font-size: 2rem;
-  position: absolute;
 }
 
 body {
-  font-size: 2rem;
   margin: 0;
 }
