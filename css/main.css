@@ -11,6 +11,7 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+  min-width: 100px;
 }
 
 .card {
@@ -23,6 +24,7 @@ html {
 }
 
 .banner {
+  padding-top: 0;
   line-height: 1.4;
   display: inline;
   background-color: rgba(0, 0, 0, .5);
@@ -32,6 +34,8 @@ html {
 }
 
 .card-body {
+  display: inline-block;
+  max-height: 500px;
   max-width: 50em;
   bottom: 0;
   position: absolute;
@@ -42,6 +46,7 @@ html {
 h2 + p {
   font-style: italic;
   font-size: 2rem;
+  margin-top: 10px;
 }
 
 body {
