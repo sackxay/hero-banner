@@ -11,16 +11,15 @@ html {
 .img-flex {
   display: block;
   width: 100%;
-  min-width: 100px;
 }
 
 .card {
-  left: 0;
   overflow: hidden;
   border: 1px solid #ccc;
   border-radius: 0 6px 6px;
   position: relative;
   max-height: 500px;
+  min-width: 100px;
 }
 
 .banner {
@@ -31,15 +30,16 @@ html {
   color: white;
   font-size: 4rem;
   font-weight: bold;
+  text-align: center;
 }
 
 .card-body {
+  width: 100%;
+  padding: 0;
   display: inline-block;
-  max-height: 500px;
-  max-width: 50em;
-  bottom: 0;
   position: absolute;
   left: 50%;
+  bottom: 1em;
   transform: translateX(-50%);
 }
 
